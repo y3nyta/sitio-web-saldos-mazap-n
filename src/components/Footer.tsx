@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Heart } from "lucide-react";
+import { Facebook, Instagram, Twitter, Youtube, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo.jpg";
 
@@ -6,9 +6,10 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Facebook, label: "Facebook", href: "#" },
-    { icon: Instagram, label: "Instagram", href: "#" },
-    { icon: Twitter, label: "Twitter", href: "#" },
+    { icon: Facebook, label: "Facebook", href: "https://facebook.com" },
+    { icon: Twitter, label: "Twitter", href: "https://twitter.com" },
+    { icon: Youtube, label: "Youtube", href: "https://youtube.com" },
+    { icon: Instagram, label: "Instagram", href: "https://instagram.com" },
   ];
 
   return (

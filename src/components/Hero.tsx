@@ -30,14 +30,17 @@ const Hero = () => {
             <span className="font-poppins text-sm font-medium text-white">Las Mejores Ofertas del Bazar</span>
           </div>
           
-          <h1 className="font-montserrat font-extrabold text-5xl md:text-7xl lg:text-8xl text-white mb-6 leading-tight">
-            Saldos <span className="text-secondary">Mazapán</span>
+          <h1 className="font-montserrat font-bold text-4xl md:text-6xl lg:text-7xl text-white mb-4 leading-tight">
+            Tenemos <span className="text-secondary italic">todo para el</span><br />
+            <span className="text-5xl md:text-7xl lg:text-8xl">HOGAR Y TU</span><br />
+            <span className="text-secondary text-5xl md:text-7xl lg:text-8xl">FAMILIA!</span>
           </h1>
           
-          <p className="font-poppins text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Descubre moda, calzado, perfumería y más con los mejores precios. 
-            Tu estilo, tu bazar favorito.
-          </p>
+          <div className="inline-block bg-white px-8 py-3 mb-8 animate-scale-in" style={{ animationDelay: "0.2s" }}>
+            <p className="font-montserrat font-bold text-2xl md:text-3xl text-navy">
+              A los mejores precios!!
+            </p>
+          </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 

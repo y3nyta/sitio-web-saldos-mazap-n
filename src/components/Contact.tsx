@@ -7,21 +7,21 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Teléfono",
-      content: "+52 123 456 7890",
-      link: "tel:+521234567890",
+      content: "661-123-90-48",
+      link: "tel:+526611239048",
       color: "text-primary"
     },
     {
-      icon: Mail,
-      title: "Email",
-      content: "contacto@saldosmazapan.com",
-      link: "mailto:contacto@saldosmazapan.com",
+      icon: MessageCircle,
+      title: "WhatsApp",
+      content: "661-123-90-48",
+      link: "https://wa.me/526611239048",
       color: "text-secondary"
     },
     {
       icon: MapPin,
       title: "Dirección",
-      content: "Av. Principal #123, Ciudad",
+      content: "Av. Balbino Obeso López 186, Lucio Blanco",
       link: "https://maps.google.com",
       color: "text-accent"
     },
@@ -34,7 +34,7 @@ const Contact = () => {
   ];
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/1234567890?text=Hola, me gustaría obtener más información", "_blank");
+    window.open("https://wa.me/526611239048?text=Hola, me gustaría obtener más información sobre sus productos", "_blank");
   };
 
   return (

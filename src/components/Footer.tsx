@@ -98,9 +98,7 @@ const Footer = () => {
               <p className="font-poppins text-sm text-white/60 text-center md:text-left">
                 © {currentYear} Saldos Mazapán. Todos los derechos reservados.
               </p>
-              <p className="font-poppins text-sm text-white/60 flex items-center gap-1">
-                Hecho con <Heart className="h-4 w-4 text-accent fill-accent" /> en México
-              </p>
+              
             </div>
           </div>
         </div>

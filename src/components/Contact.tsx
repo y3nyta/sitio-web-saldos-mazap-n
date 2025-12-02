@@ -28,7 +28,7 @@ const Contact = () => {
     {
       icon: Clock,
       title: "Horario",
-      content: "Mar - Sáb: 10:00 AM - 6:00 PM",
+      content: "Mar - Sáb: 10:00 AM - 6:00 PM, Dom: 7:00 AM - 3:00 PM",
       color: "text-primary"
     }
   ];

@@ -118,8 +118,8 @@ const Contact = () => {
           <Card className="mt-12 overflow-hidden border-border/50 shadow-card">
             <CardContent className="p-0">
               <StoreMap 
-                lat={25.778135} 
-                lng={-109.0065} 
+                lat={25.7936} 
+                lng={-108.9969} 
                 popupText="Saldos Mazapán"
               />
             </CardContent>

@@ -119,8 +119,10 @@ const Contact = () => {
             <CardContent className="p-0">
               <div className="bg-gradient-to-br from-primary/20 to-secondary/20 h-64 md:h-96 flex items-center justify-center">
                 <div className="text-center">
-                 <MapPin nplat={25.778135} lng={-80.179100} className="h-16 w-16 text-primary mx-auto mb-4 animate-float" />
-                  
+                  <MapPin className="h-16 w-16 text-primary mx-auto mb-4 animate-float" />
+                  <p className="font-poppins text-muted-foreground">
+                    Visítanos en nuestra tienda física
+                  </p>
                 </div>
               </div>
             </CardContent>

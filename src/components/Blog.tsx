@@ -1,4 +1,5 @@
 import { Calendar, User, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -108,13 +109,15 @@ const Blog = () => {
 
         {/* View All Button */}
         <div className="text-center mt-12">
-          <Button 
-            size="lg"
-            className="bg-primary hover:bg-primary/90 text-primary-foreground font-montserrat font-semibold px-8 shadow-elegant hover:shadow-glow transition-all duration-300"
-          >
-            Ver Todos los Artículos
-            <ArrowRight className="w-5 h-5 ml-2" />
-          </Button>
+          <Link to="/blog">
+            <Button 
+              size="lg"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground font-montserrat font-semibold px-8 shadow-elegant hover:shadow-glow transition-all duration-300"
+            >
+              Ver Todos los Artículos
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

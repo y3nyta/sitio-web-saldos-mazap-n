@@ -1,6 +1,7 @@
 import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import "leaflet/dist/leaflet.css";
 
 const Contact = () => {
   const contactInfo = [
@@ -28,7 +29,7 @@ const Contact = () => {
     {
       icon: Clock,
       title: "Horario",
-      content: "Mar - Sáb: 10:00 AM - 6:00 PM, Dom: 7:00 AM - 3:00 PM",
+      content: "Mar - Sáb: 10:00 AM - 6:00 PM,<br /> Dom: 7:00 AM - 3:00 PM",
       color: "text-primary"
     }
   ];
@@ -118,10 +119,8 @@ const Contact = () => {
             <CardContent className="p-0">
               <div className="bg-gradient-to-br from-primary/20 to-secondary/20 h-64 md:h-96 flex items-center justify-center">
                 <div className="text-center">
-                  <MapPin className="h-16 w-16 text-primary mx-auto mb-4 animate-float" />
-                  <p className="font-poppins text-muted-foreground">
-                    Visítanos en nuestra tienda física
-                  </p>
+                 <MapPin nplat={25.778135} lng={-80.179100} className="h-16 w-16 text-primary mx-auto mb-4 animate-float" />
+                  
                 </div>
               </div>
             </CardContent>

@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.leaflet-container {
+  height: 450px;
+  width: 100%;
+  border-radius: 12px;
+}
